@@ -4,44 +4,39 @@ Joao Vitor Silva
 declaração: 
 
  
- Numero1: real; ( valor em real ) 
+ decimal: Numero1, Numero2, Resultado1
 
- Numero2: ;( real valor da cotação) 
-
- Resultado1: real; (valor convertido) 
-
- 
 
  Inicio: 
 
-  Escreva("digite numero 1 "); 
+  ESCREVA("digite numero 1 "); 
 
-       leia (numero1); 
+  LEIA (numero1); 
        
        
  SE (resultado<10) ENTAO
  ESCREVA( " resultado menor que 10 ");
     
-    SE NAO
-          ESCREVA( " resultado maior ou igual 10 ");
+ SE NAO
+       ESCREVA( " resultado maior ou igual 10 ");
             
 
- Escreva (" digitar a cotação "); 
+ ESCREVA (" digitar a cotação "); 
 
-        Escreva("digite numero 2"); 
+ ESCREVA("digite numero 2"); 
 
-        leia (numero2); 
+ LEIA (numero2); 
 
  
 Resultado 1 <- numero1  x  numero2; 
 
-Leia ( Resultado 1); 
+LEIA ( Resultado 1); 
 
 
 
-Escreva ("O resultado é" ); 
+ESCREVA ("O resultado é" ); 
 
-Escreva ( resultado1); 
+ESCREVA ( resultado1); 
 
  
 fim-algoritimo
